@@ -1,0 +1,226 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* STYLING */
+
+body {
+  font-family: "Space Mono", monospace;
+
+  background-color: #000;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #eeeeee;
+  max-width: 1200px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+header {
+  padding-bottom: 100px;
+  padding-top: 90px;
+}
+
+header img {
+  max-width: 100%;
+}
+
+p {
+  max-width: 350px;
+  margin-bottom: 45px;
+}
+p.title {
+  color: #000;
+  background-color: #fff;
+  padding: 10px 0 10px 20px;
+}
+
+section {
+  max-width: 1100px;
+  margin-top: 45px;
+  margin-bottom: 90px;
+}
+section img {
+  max-width: 100%;
+}
+
+.image_2 img {
+  padding-bottom: 20px;
+}
+.image_3 img {
+  padding-bottom: 20px;
+}
+.image_3 p {
+  width: 100%;
+}
+.process {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: solid 1px #fff;
+}
+.contact {
+  background-color: #191a1b;
+  padding: 30px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #6a6a6a;
+}
+
+.socials {
+  padding-top: 30px;
+}
+
+.socials a {
+  padding-right: 25px;
+}
+
+@media (max-width: 650px) {
+  body {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  header {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+
+  section {
+    margin-bottom: 20px;
+  }
+  .process {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+  }
+  .socials {
+    display: flex;
+    flex-direction: column;
+  }
+}
